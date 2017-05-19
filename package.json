@@ -1,5 +1,5 @@
 {
-  "name": "class-inheritance",
+  "name": "calc-stats-node",
   "version": "1.0.0",
   "description": "Powered by ThoughtWorks School",
   "main": "app.js",
@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tw-online-quiz/class-inheritance.git"
+    "url": "git+https://github.com/tw-online-quiz/calc-stats-node.git"
   },
   "author": "ThoughtWorks School",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/tw-online-quiz/class-inheritance/issues"
+    "url": "https://github.com/tw-online-quiz/calc-stats-node/issues"
   },
   "homepage": "https://school.thoughtworks.cn",
   "devDependencies": {

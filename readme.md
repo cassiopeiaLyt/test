@@ -1,9 +1,18 @@
-## 类和继承
-写一个Person类，要有name，age属性，要有一个introduce方法， introduce方法返回一个字符串形如：
-`My name is Tom. I am 21 years old.`
+## 统计状态
+处理一个整数集合，计算下面的状态：
+* 最小值
+* 最大值
+* 序列中的元素个数
+* 平均值
 
-再写一个Student类继承Person类，除了name，age属性，还要有klass（表示班级，因为 class 是关键字）属性。也有一个introduce方法， introduce方法返回一个字符串形如：
-`My name is Tom. I am 21 years old. I am a Student. I am at Class 2.`
+比如， [6, 9, 15, -2, 92, 11]，应输出如下：
+```
+o) 最小值 = -2
+o) 最大值 = 92
+o) 元素数量 = 6
+o) 平均值 = 21.83
+```
+注：保留小数点后两位。
 
 ## 参考资料
 
@@ -29,7 +38,7 @@ NOTE：如果提示git命令未找到请先阅读参考资料
 spec  //测试文件夹
 src   //源文件
 ```
-`请在src文件下的person.js和student.js文件内实现`
+`请在src文件下的main.js文件内实现main函数`
 
 - 完成函数后，使用以下命令设置github远程仓库地址 (my_url代表你自己的新的github地址)
 ```
