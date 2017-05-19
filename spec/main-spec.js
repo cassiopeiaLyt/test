@@ -1,11 +1,16 @@
 const main = require('../main/main');
 const fs = require('fs')
 
-describe('validate the file exist', () => {
+describe('get remainder of two number', () => {
 
-    it('should get HELLOWORLD.md exist in root folder like readme.md', () => {
-        fs.exists('./HELLOWORLD.md', (isExist) => {
-            expect(isExist).toBe(true);
-        })
+    it('basic test case1', () => {
+        expect(main(9,4) == 1).toBe(true);
+    });
+});
+
+describe('get remainder of two number', () => {
+
+    it('basic test case2', () => {
+        expect(main(9,3) == 0).toBe(true);
     });
 });

@@ -1,10 +1,5 @@
-module.exports = function main() {
-    console.log("Debug Info");
-    return "hello world!";
+module.exports = function main(a,b) {
+    return a % b;
 };
 
-module.exports = function remainder(a,b) {
-	var c = a % b;
-	console.log(c);
-	return c;
-};
+
