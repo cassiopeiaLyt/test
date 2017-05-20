@@ -29,7 +29,6 @@ describe('pos', () => {
             '----------------------\n' +
             '总计：23.00(元)\n' +
             '**********************';
-		actualText = expectText;
         expect(actualText).toBe(expectText);
     });
 });
