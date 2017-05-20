@@ -1,52 +1,19 @@
-# POS Project v0.2
+## 邮件地址验证
+给定邮件地址和邮箱后缀列表，如果该邮件地址满足任一后缀，则为合法，否则为非法地址。
+例如：给定邮件地址 `tom@gmail.com`，后缀列表：`['gmail', 'qq']`。
 
-POS收银机 版本：v0.2
+提示：
+ split 方法可以切割字符串
 
-## 教学目标
+## 参考资料
 
-1. 学会把基本描述转换成程序；
-2. 能够驾驭三个循环；
-
-## 需求描述
-
-商店里进行购物结算时会使用收银机（POS）系统，这台收银机会在结算时根据客户的购物车（Cart）中的商品（Item）进行结算和打印购物清单。
-
-我们需要实现一个函数，该函数能够将指定格式的数据作为参数输入，然后在返回值中输出结算清单的文本。
-
-输入格式（样例）：
-
-```javascript
-
-[
-    'ITEM000000',
-    'ITEM000000',
-    'ITEM000000',
-    'ITEM000000',
-    'ITEM000000',
-    'ITEM000001',
-    'ITEM000001',
-    'ITEM000004'
-]
-
-```
-
-清单内容（样例）：
-
-```
-***<没钱赚商店>购物清单***
-名称：可口可乐，数量：5瓶，单价：3.00(元)，小计：15.00(元)
-名称：雪碧，数量：2瓶，单价：3.00(元)，小计：6.00(元)
-名称：电池，数量：1个，单价：2.00(元)，小计：2.00(元)
-----------------------
-总计：23.00(元)
-**********************
-```
-
-## 作业要求
-
-1. 根据```spec/main-spec.js```中的测试用例，在```src/main.js```文件中编写实现代码并确保测试通过；
-2. 请在保证代码可读性的前提下，尽可能用最少的代码行数完成作业；
-3. 将清单输出到控制台,使测试通过
+1. [Javascript基础](http://codefordream.com/courses/js_basic/sections)
+2. [Javascript初级训练营](http://codefordream.com/courses/js_learning_camps/sections)
+3. [ECMAScript 6 入门](http://es6.ruanyifeng.com/)
+4. [npm 下载安装](https://github.com/npm/npm)
+5. [node 下载安装](https://github.com/creationix/nvm)
+6. [jasmine用法](http://jasmine.github.io/2.4/introduction.html)
+7. [Git 参考手册](http://gitref.org/zh/index.html)
 
 
 ## 答题流程
