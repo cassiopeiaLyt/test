@@ -1,20 +1,25 @@
-## 邮件地址验证
-给定邮件地址和邮箱后缀列表，如果该邮件地址满足任一后缀，则为合法，否则为非法地址。
-例如：给定邮件地址 `tom@gmail.com`，后缀列表：`['gmail', 'qq']`。
+# 编程小道场
 
-提示：
- split 方法可以切割字符串
+把数字转化为lcd灯的表现形式，打印在控制台上。下面是0~9的样子：
+
+    ._.   ...   ._.   ._.   ...   ._.   ._.   ._.   ._.   ._.
+    |.|   ..|   ._|   ._|   |_|   |_.   |_.   ..|   |_|   |_|
+    |_|   ..|   |_.   ._|   ..|   ._|   |_|   ..|   |_|   ..|
+
+
+例子: 910
+
+
+    ._. ... ._.
+    |_| ..| |.|
+    ..| ..| |_|
+
 
 ## 参考资料
 
-1. [Javascript基础](http://codefordream.com/courses/js_basic/sections)
-2. [Javascript初级训练营](http://codefordream.com/courses/js_learning_camps/sections)
-3. [ECMAScript 6 入门](http://es6.ruanyifeng.com/)
-4. [npm 下载安装](https://github.com/npm/npm)
-5. [node 下载安装](https://github.com/creationix/nvm)
-6. [jasmine用法](http://jasmine.github.io/2.4/introduction.html)
-7. [Git 参考手册](http://gitref.org/zh/index.html)
-
+- [Array#join](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join?v=example)
+- [Array#push](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push?v=example)
+- [Sting Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
 
 ## 答题流程
 - 请用户仔细阅读题目要求和题目描述
@@ -56,3 +61,4 @@ src   //源文件
 ```
 
 可以通过测试来检测本地代码是否完成作业要求，测试通过即可提交到github，把git库地址填到答题页面，并提交表单。
+
